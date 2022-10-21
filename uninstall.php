@@ -22,7 +22,7 @@
  * @link       http://example.com
  * @since      1.0.0
  *
- * @package    Qc_Wooswatches
+ * @package    Qc_Woosw
  */
 
 // If uninstall not called from WordPress, then exit.

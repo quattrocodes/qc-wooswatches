@@ -1,0 +1,46 @@
+/*!***********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./admin/assets/css/src/qc-woosw-admin.scss ***!
+  \***********************************************************************************************************************************/
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.qc-woosw-admin-field .swatch-wrap {
+  /* Image swatch styles */
+  /* Button swatch styles */ }
+  .qc-woosw-admin-field .swatch-wrap.qc-woosw-img-swatch-wrap .upload .qc-woosw-upload-img-btn {
+    min-width: 180px;
+    text-align: center; }
+  .qc-woosw-admin-field .swatch-wrap.qc-woosw-img-swatch-wrap .qc-woosw-img-preview {
+    display: block;
+    width: 100px;
+    height: auto; }
+  .qc-woosw-admin-field .swatch-wrap.qc-woosw-img-swatch-wrap .qc-woosw-wrap.remove {
+    margin-top: 1rem; }
+  .qc-woosw-admin-field .swatch-wrap.qc-woosw-button-swatch-wrap .qc-woosw-button-text_field {
+    display: block;
+    margin: 0 0 1rem; }
+    .qc-woosw-admin-field .swatch-wrap.qc-woosw-button-swatch-wrap .qc-woosw-button-text_field #qc-woosw-button-text {
+      max-width: 280px; }
+  .qc-woosw-admin-field .swatch-wrap.qc-woosw-button-swatch-wrap label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem; }
+
+.qc-woosw-admin-field .hide {
+  display: none; }
+
+.qc-woosw-admin-field .show {
+  display: block; }
+
+.qc-woosw-admin-field.attribute.add-page {
+  display: flex;
+  flex-flow: wrap; }
+  .qc-woosw-admin-field.attribute.add-page input {
+    margin: 0 .5rem 0 0; }
+  .qc-woosw-admin-field.attribute.add-page label {
+    order: 2;
+    padding: 0; }
+  .qc-woosw-admin-field.attribute.add-page .description {
+    order: 3; }
+

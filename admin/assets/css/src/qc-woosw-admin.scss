@@ -1,0 +1,73 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.qc-woosw-admin-field {
+  & .swatch-wrap {
+    /* Image swatch styles */
+    &.qc-woosw-img-swatch-wrap {
+      & .upload {
+        & .qc-woosw-upload-img-btn {
+          min-width: 180px;
+          text-align: center;
+        }
+      }
+
+      & .qc-woosw-img-preview {
+        display: block;
+        width: 100px;
+        height: auto;
+      }
+
+      & .qc-woosw-wrap {
+        &.remove {
+          margin-top: 1rem;
+        }
+      }
+    }
+    /* Button swatch styles */
+    &.qc-woosw-button-swatch-wrap {
+      & .qc-woosw-button-text_field {
+        display: block;
+        margin: 0 0 1rem;
+
+        & #qc-woosw-button-text {
+          max-width: 280px;
+        }
+      }
+
+      & label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+
+  & .hide {
+    display: none;
+  }
+
+  & .show {
+    display: block;
+  }
+
+  &.attribute {
+    
+    &.add-page {
+        display: flex;
+        flex-flow: wrap;
+        & input {
+            margin: 0 .5rem 0 0;
+        }
+        & label {
+            order: 2;
+            padding: 0;
+        }
+        & .description {
+          order: 3;
+        }
+    }
+  }
+}
